@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Лена Петелина](https://up.htmlacademy.ru/htmlcss/16/user/345843).
-* Наставник: `Неизвестно`.
+* Наставник: [Наталья Налимова](https://htmlacademy.ru/profile/tuetfe).
 
 ---
 
