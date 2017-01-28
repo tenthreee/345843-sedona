@@ -2,7 +2,7 @@ body {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
-  font-family: "PT Sans", sans-serif;
+  font-family: "PT Sans", "Arial", sans-serif;
   color: #000000;
 }
 
@@ -16,4 +16,251 @@ h2 {
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  background-color: #5c5e61;
+}
+
+.main-header {
+  margin-bottom: 75px;
+  background-color: #ffffff;
+}
+
+.main-navigation {
+  padding-left: 70px;
+  padding-right: 70px;
+  min-height: 55px;
+}
+
+.main-navigation ul {
+  float: left;
+  min-width: 200px;
+}
+
+.header-logo {
+  float: right;
+}
+
+.main-logo {
+  width: 458px;
+  height: 352px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 140px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.main-title {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 55px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+div .features {
+  margin-bottom: 55px; /* почему-то не отталкивает вниз следующий блок */
+}
+
+.features ol {
+  margin: 0;
+  padding: 0;
+}
+
+.features-item {
+  text-align: center;
+}
+
+.features-item-title {
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 280px;
+  height: 256px;
+  background: #81b3d2;
+}
+
+.features-item-left .features-item-title {
+  float: left;
+}
+
+.features-item-right .features-item-title {
+  float: right;
+}
+
+.features-item-left img {
+  float: right;
+}
+
+.features-item-right img {
+  float: left;
+}
+
+.features ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.features-subitem {
+  padding-top: 60px;
+  padding-bottom: 85px;
+  padding-left: 60px;
+  padding-right: 60px;
+  float: left;
+  width: 280px;
+}
+
+.features-item-small {
+  padding-top: 55px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+  float: left;
+  width: 280px;
+  background-color: #ffffff;
+}
+
+.hotel-search-title {
+  margin-bottom: 55px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.hotel-search {
+  margin-left: auto;
+  margin-right: auto;
+  width: 570px;
+  height: 480px;
+  background-color: #ffffff;
+}
+
+.hotel-search h2 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-color: #766357;
+}
+
+.hotel-options {
+  margin-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+
+.hotel-options > fieldset {
+  float: left;
+  margin-right: 115px;
+  min-width: 150px;
+}
+
+.hotel-options > div {
+  float: right;
+}
+
+.hotel-sorting-panel {
+  margin-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: #ffffff;
+}
+
+.hotel-sorting-panel-title {
+  float: left;
+  margin-right: 50px;
+}
+
+.hotel-sorting-panel-links {
+  float: left;
+  width: 355px;
+}
+
+.hotel-sorting-panel-links ul {
+  padding: 0;
+  margin: 0;
+}
+
+.hotel-sorting-arrows {
+  float: right;
+}
+
+.search-result-hotels {
+  margin: 0;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: #ffffff;
+}
+
+.search-result-hotels li {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  min-height: 90px;
+}
+
+.hotel-info-pic {
+  float: left;
+  margin-right: 30px;
+}
+
+.hotel-info-desc {
+  float: left;
+}
+
+.hotel-rating {
+  float: right;
+}
+
+.rating-stars {
+  width: 50px;
+  height: 10px;
+  background-color: #ccc; /* чтобы было видно, что они есть */
+}
+
+.rating-stars-list {
+  list-style: none;
+}
+
+.rating-stars-item {
+  display: inline;
+}
+
+.main-footer {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 135px;
+  padding-right: 105px;
+  background-color: #ffffff;
+}
+
+.footer-hashtag {
+float: left;
+width: 140px;
+margin-right: 255px;
+}
+
+.footer-social {
+float: left;
+width: 150px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 195px;
 }
