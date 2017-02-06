@@ -1,3 +1,198 @@
+.sprite {
+    background-image: url("../img/sprite.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-checkbox-selected {
+    width: 26px;
+    height: 22px;
+    background-position: -5px -5px;
+}
+
+.sprite-checkbox-selected-blocked {
+    width: 26px;
+    height: 22px;
+    background-position: -41px -5px;
+}
+
+.sprite-icon-asc-arrow {
+    width: 11px;
+    height: 10px;
+    background-position: -77px -5px;
+}
+
+.sprite-icon-asc-arrow-active {
+    width: 11px;
+    height: 10px;
+    background-position: -98px -5px;
+}
+
+.sprite-icon-asc-arrow-hover {
+    width: 11px;
+    height: 10px;
+    background-position: -119px -5px;
+}
+
+.sprite-icon-calendar {
+    width: 21px;
+    height: 22px;
+    background-position: -140px -5px;
+}
+
+.sprite-icon-calendar-active {
+    width: 21px;
+    height: 22px;
+    background-position: -171px -5px;
+}
+
+.sprite-icon-calendar-hover {
+    width: 21px;
+    height: 22px;
+    background-position: -5px -37px;
+}
+
+.sprite-icon-desc-arrow {
+    width: 11px;
+    height: 10px;
+    background-position: -202px -5px;
+}
+
+.sprite-icon-desc-arrow-active {
+    width: 11px;
+    height: 10px;
+    background-position: -77px -25px;
+}
+
+.sprite-icon-desc-arrow-hover {
+    width: 11px;
+    height: 10px;
+    background-position: -98px -25px;
+}
+
+.sprite-icon-facebook {
+    width: 10px;
+    height: 19px;
+    background-position: -119px -25px;
+}
+
+.sprite-icon-food {
+    width: 74px;
+    height: 70px;
+    background-position: -139px -37px;
+}
+
+.sprite-icon-housing {
+    width: 75px;
+    height: 72px;
+    background-position: -5px -117px;
+}
+
+.sprite-icon-less {
+    width: 12px;
+    height: 3px;
+    background-position: -90px -117px;
+}
+
+.sprite-icon-less-active {
+    width: 12px;
+    height: 3px;
+    background-position: -112px -117px;
+}
+
+.sprite-icon-less-hover {
+    width: 12px;
+    height: 3px;
+    background-position: -134px -117px;
+}
+
+.sprite-icon-more {
+    width: 11px;
+    height: 11px;
+    background-position: -156px -117px;
+}
+
+.sprite-icon-more-active {
+    width: 11px;
+    height: 11px;
+    background-position: -177px -117px;
+}
+
+.sprite-icon-more-hover {
+    width: 11px;
+    height: 11px;
+    background-position: -198px -117px;
+}
+
+.sprite-icon-souvenir {
+    width: 64px;
+    height: 76px;
+    background-position: -90px -138px;
+}
+
+.sprite-icon-star {
+    width: 18px;
+    height: 17px;
+    background-position: -164px -138px;
+}
+
+.sprite-icon-twitter {
+    width: 17px;
+    height: 15px;
+    background-position: -192px -138px;
+}
+
+.sprite-icon-youtube {
+    width: 20px;
+    height: 16px;
+    background-position: -36px -37px;
+}
+
+.sprite-logo-htmlacademy {
+    width: 113px;
+    height: 39px;
+    background-position: -223px -5px;
+}
+
+.sprite-logo-htmlacademy-active {
+    width: 113px;
+    height: 39px;
+    background-position: -223px -54px;
+}
+
+.sprite-logo-htmlacademy-hover {
+    width: 113px;
+    height: 39px;
+    background-position: -223px -103px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
   font-size: 14px;
   line-height: 21px;
@@ -70,7 +265,7 @@ h2 {
 }
 
 div .features {
-  margin-bottom: 55px; /* почему-то не отталкивает вниз следующий блок */
+  margin-bottom: 55px;
 }
 
 .features ol {
