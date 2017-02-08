@@ -65,10 +65,16 @@
           <div class="hotel-price-container">
             <fieldset class="hotel-price">
               <legend>Стоимость в сутки (р):</legend>
-              <div class="hotel-price-range">
-                <input type="text" name="min-price" value="от 0">
-                <input type="text" name="max-price" value="до 3000">
-                <div class="range"></div>
+              <div class="hotel-price-controls">
+                <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+                <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+              </div>
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="range-toggle range-toggle-min"></div>
+                <div class="range-toggle range-toggle-max"></div>
               </div>
             </fieldset>
             <button type="submit">Показать</button>
@@ -98,10 +104,10 @@
                 <img src="img/hotel-amara.jpg" width="135" height="90" alt="Amara Resort And Spa">
               </div>
               <div class="hotel-info-desc">
-                <h2><a class="link">Amara Resort And Spa</a></h2>
+                <h2><a class="link">Amara Resort & Spa</a></h2>
                 <div class="hotel-info-price">
-                  <span>Гостиница</span>
-                  <span>от 3 500 р.</span>
+                  <div class="price-left">Гостиница</div>
+                  <div class="price-right">от 3 500 р.</div>
                 </div>
                 <div class="hotel-info-buttons">
                   <a class="btn btn-more" href="#">Подробнее</a>
@@ -131,8 +137,8 @@
               <div class="hotel-info-desc">
                 <h2><a class="link">Desert Quail Inn</a></h2>
                 <div class="hotel-info-price">
-                  <span>Мотель</span>
-                  <span>от 2 000 р.</span>
+                  <div class="price-left">Мотель</div>
+                  <div class="price-right">от 2 000 р.</div>
                 </div>
                 <div class="hotel-info-buttons">
                   <a class="btn btn-more" href="#">Подробнее</a>
@@ -143,6 +149,7 @@
             <div class="hotel-rating">
               <div class="rating-stars">
                 <ul class="rating-stars-list">
+                  <li class="rating-stars-item"></li>
                   <li class="rating-stars-item"></li>
                   <li class="rating-stars-item"></li>
                 </ul>
@@ -160,8 +167,8 @@
               <div class="hotel-info-desc">
                 <h2><a class="link">Villas At Poco Diablo</a></h2>
                 <div class="hotel-info-price">
-                  <span>Апартаменты</span>
-                  <span>от 4 000 р.</span>
+                  <div class="price-left">Апартаменты</div>
+                  <div class="price-right">от 4 000 р.</div>
                 </div>
                 <div class="hotel-info-buttons">
                   <a class="btn btn-more" href="#">Подробнее</a>
@@ -172,7 +179,6 @@
             <div class="hotel-rating">
               <!-- <div class="rating-stars"> -->
                 <ul class="rating-stars-list">
-                  <li class="rating-stars-item"></li>
                   <li class="rating-stars-item"></li>
                   <li class="rating-stars-item"></li>
                 </ul>
