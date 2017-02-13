@@ -375,6 +375,7 @@ img {
   position: absolute;
   left: 50%;
   top: -86px;
+	overflow: hidden;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
 }
@@ -424,27 +425,23 @@ img {
 
 @-webkit-keyframes form-show {
   from {
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
-    opacity: 0;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
   }
   to {
     -webkit-transform: translateY(0);
             transform: translateY(0);
-    opacity: 1;
   }
 }
 
 @keyframes form-show {
   from {
-    -webkit-transform: translateY(-25%);
-            transform: translateY(-25%);
-    opacity: 0;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
   }
   to {
     -webkit-transform: translateY(0);
             transform: translateY(0);
-    opacity: 1;
   }
 }
 
