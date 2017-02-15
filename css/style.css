@@ -857,6 +857,7 @@ img {
   font: inherit;
   background: none;
   border: none;
+	outline: transparent;
 }
 
 .range-controls {
