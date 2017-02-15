@@ -692,6 +692,10 @@ img {
   background: #cbdba8 url("../img/map-1200.jpg") no-repeat center top;
 }
 
+.map iframe {
+	border: 0;
+}
+
 
 /*начало hotels-index.html*/
 
